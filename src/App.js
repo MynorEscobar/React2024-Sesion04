@@ -3,6 +3,7 @@ import './App.css';
 import { PruebasComponentes } from './Componentes/PruebasComponentes';
 import Temporizador from './Componentes/Temporizador';
 import ListaPokemon from './Componentes/ListaPokemon';
+import BreakingBad from './Componentes/BreakingBad';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         <PruebasComponentes></PruebasComponentes>
         <Temporizador tiempoInicial={10}></Temporizador>
         <ListaPokemon></ListaPokemon>
+        <BreakingBad></BreakingBad>
       </header>
     </div>
   );
